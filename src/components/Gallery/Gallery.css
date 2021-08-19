@@ -1,0 +1,86 @@
+.gallery {
+  margin-top: 67px;
+  background: url("../Home/Camp/illu1.png");
+}
+.tags {
+  text-align: center;
+  padding: 10px 0px;
+  margin-bottom: 30px;
+}
+
+.tag {
+  outline: none;
+  border: none;
+  color: #eee;
+  font-size: 22px;
+  margin: 0px 10px;
+  padding: 5px 20px;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: #f0bc1d;
+}
+
+.tag:hover {
+  color: black;
+}
+
+.active {
+  color: #000;
+}
+.container-2 {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.container-2::after {
+  display: none;
+}
+.container-2::before {
+  display: none;
+}
+
+.image-card {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+  height: fit-content;
+  box-shadow: 10px 12px 108px -9px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 10px 12px 108px -9px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 10px 12px 108px -9px rgba(0, 0, 0, 0.59);
+}
+
+.image {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .gallery {
+    margin-top: 50px;
+  }
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .tags {
+    font-size: 17px;
+    margin-top: -40px;
+    padding-top: 60px;
+  }
+}
+/* @media (max-width: 991px) {
+  .container-2 {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+} */
+@media (max-width: 450px) {
+  .tag {
+    padding: 3px 15px;
+    font-size: 18px !important;
+  }
+}

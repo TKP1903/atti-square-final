@@ -1,0 +1,42 @@
+.faq {
+  margin-top: 65px;
+  width: auto;
+  overflow-x: hidden;
+}
+
+.faqform {
+  padding: 0px 50px;
+  padding-top: 20px;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.925);
+  background-size: contain;
+  border-radius: 5px;
+}
+.faqaccordian {
+  padding: 0px 30px;
+  padding-top: 20px;
+
+  width: 50%;
+  border: none;
+}
+@media (max-width: 991px) {
+  .faq {
+    margin-top: 50px !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .faqform {
+    width: 100%;
+  }
+  .faqaccordian {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .faq {
+    margin-top: 70px;
+  }
+}

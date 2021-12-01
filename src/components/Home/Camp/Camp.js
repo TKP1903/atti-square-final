@@ -9,15 +9,15 @@ const Camp = () => {
     var staggerTime = 110;
 
     var urls = [
-      "https://attisquare.s3.amazonaws.com/atti-images/camp-2.webp",
-      "https://attisquare.s3.amazonaws.com/atti-images/camp-4.webp",
-      "https://attisquare.s3.amazonaws.com/atti-images/camp-5.webp",
-      "https://attisquare.s3.amazonaws.com/atti-images/camp-6.webp",
-      "https://attisquare.s3.amazonaws.com/atti-images/camp-7.webp",
-      "https://attisquare.s3.amazonaws.com/atti-images/camp-8.webp",
+      "https://drive.google.com/uc?export=view&id=1cj7kmGgC9ocaPHLnieSaqOb3qtKtOjDY",
+      "https://drive.google.com/uc?export=view&id=1t0i_gFGXEvzkZRCrnlNZO1afcp_gModI",
+      "https://drive.google.com/uc?export=view&id=19TOj3mr67VEOCgz0XhxKu6F3C6J9m7Ww",
+      "https://drive.google.com/uc?export=view&id=1fkYra12FyFHXrs7Xw9XXQmrgg3E5hF8y",
+      "https://drive.google.com/uc?export=view&id=1LnmOJOQreZBIqVVbiBIsJ9dYJWBMhCmv",      
+      "https://drive.google.com/uc?export=view&id=1edpH0ymfsBLHF4SwaOPPTA6C4UG_ClVh",
       "https://drive.google.com/uc?export=view&id=1RLwYtgITpsvRPAYCrL6UoI_bWsVQ0BmP",
       "https://drive.google.com/uc?export=view&id=1aH8bSlnBi4DwuwRLwtK5Qh_XBxBk6dH-",
-      " https://drive.google.com/uc?export=view&id=1N824-tXOP7Y2J1a780AtcTMrB9dpGCG-",
+      "https://drive.google.com/uc?export=view&id=1N824-tXOP7Y2J1a780AtcTMrB9dpGCG-",
     ];
 
     var $gallery = $(".demo__gallery");

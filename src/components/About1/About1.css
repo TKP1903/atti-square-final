@@ -88,7 +88,7 @@
 .text-about {
   text-align: left;
   padding: 10%;
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-17.webp");
+  background-image: url("../assets/about-center.webp");
 
   background-repeat: no-repeat;
   background-position: center;
@@ -99,7 +99,7 @@
 }
 
 .content-para {
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/atti-back1.png");
+  background: url("../assets/atti-back1.webp");
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
@@ -115,7 +115,7 @@
 
 .parent1,
 .parent3 {
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/atti-back1.png");
+  background: url("../assets/atti-back1.webp");
   margin-top: 3rem;
   /* margin: auto; */
   display: flex;
@@ -146,7 +146,7 @@ p.why-para {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background: url("../assets/illu1.png");
   background-size: contain;
 }
 .child-content {
@@ -259,17 +259,16 @@ p.why-para {
   }
   @media (max-width: 426px) {
     .line2 {
-      margin-left: -65px !important;
+      margin-left: -100px !important;
     }
   }
   @media (max-width: 376px) {
     .line2 {
-      margin-left: -45px !important;
+      margin-left: -100px !important;
     }
   }
   @media (max-width: 375px) {
-    .line,
-    .line2 {
+    .line {
       width: 80px !important;
     }
   }

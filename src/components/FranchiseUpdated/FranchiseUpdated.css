@@ -110,21 +110,21 @@
 }
 
 #home {
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background-image: url("../assets/illu1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 60px;
 }
 #profile {
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background-image: url("../assets/illu1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 60px;
 }
 #settings {
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background-image: url("../assets/illu1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,14 +132,14 @@
   /* margin-top: 112px; */
 }
 #model {
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background-image: url("../assets/illu1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 60px;
 }
 #messages {
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background-image: url("../assets/illu1.png");
   background-color: #000;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@
 
   height: auto;
 
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background: url("../assets/illu1.png");
   /* no-repeat; */
   /* background-color: #000; */
 

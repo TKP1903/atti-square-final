@@ -3,7 +3,7 @@
   font-size: 30px;
 }
 .cont-bg {
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-16.webp") !important;
+  background-image: url("../assets/contact.webp") !important;
   background-position: center;
   background-size: cover;
   margin-top: 60px;
@@ -41,7 +41,7 @@ iframe:hover {
   height: 100%;
   padding: 5%;
   border-radius: 20px 0 20px 0;
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background: url("../assets/illu1.png");
   background-size: contain;
   margin-right: 10%;
   margin-bottom: 8%;

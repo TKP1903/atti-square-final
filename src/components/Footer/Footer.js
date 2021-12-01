@@ -15,11 +15,8 @@ const Footer = () => {
       </h3>
       <ul className="social">
         <li>
-          <a href="https://www.facebook.com/attisquare/" target="_blank">
-            <img
-              src="https://attisquare.s3.amazonaws.com/facebook.png"
-              alt=""
-            />
+          <a href="https://www.facebook.com/attisquare/" target="_blank" style={{textDecoration:"none", fontSize:"40px"}}>
+          <i class="fab fa-facebook"></i>
           </a>
         </li>
 
@@ -28,11 +25,9 @@ const Footer = () => {
             href="https://www.instagram.com/attisquare/"
             className="link"
             target="_blank"
+            style={{textDecoration:"none", fontSize:"40px"}}
           >
-            <img
-              src="https://attisquare.s3.amazonaws.com/instagram.png"
-              alt=""
-            />
+            <i class="fab fa-instagram"></i>
           </a>
         </li>
       </ul>

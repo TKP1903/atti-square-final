@@ -25,7 +25,7 @@ $gallery-bg: #eee;
   justify-content: center;
   flex-direction: column;
   padding: 5%;
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background: url("./illu1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -180,7 +180,7 @@ $gallery-bg: #eee;
     justify-content: center;
     flex-direction: column;
     padding: 17%;
-    background: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+    background: url("./illu1.png");
 
     &__gallery {
       width: $cols * $partSize + 2 * $cols * $margins + 2 * $margins;

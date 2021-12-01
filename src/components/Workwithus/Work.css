@@ -6,7 +6,7 @@
   /* top: 96px; */
   width: 100%;
   height: max-content;
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/illu1.png");
+  background: url("../assets/illu1.png");
   background-size: contain;
   display: flex;
   align-items: center;
@@ -26,7 +26,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 5%;
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/Work.jpeg");
+  background: url("./Work.jpeg");
   color: rgb(79, 82, 79);
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,7 +166,7 @@ button {
 
 .body1 {
   padding: 2%;
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/wwu1.png");
+  background: url("./wwu1.png");
   background-position: center;
   background-size: cover;
   position: relative;

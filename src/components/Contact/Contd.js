@@ -35,6 +35,15 @@ const Contd = () => {
                   <br />
                   <span className="addd">Velachery: </span>No 1, Velachery Rd,
                   Vijaya Nagar, Velachery, Chennai, Tamil Nadu 600042
+                  <br />
+                  <br />
+                  <span className="addd">Madipakkam: </span>81, Medavakkam Main Rd, opposite to Axis bank, Madipakkam, Chennai, Tamil Nadu 600091
+
+                  <br />
+                  <br />
+                  <span className="addd">George Town: </span>10,11 Broadway road,Asirvada puram,George town, opp. to Muthialpet, Police station, Chennai, Tamil Nadu 600108
+
+
                 </p>
               </div>
             </div>
@@ -43,7 +52,7 @@ const Contd = () => {
         <Col md={6} className="col-full-width">
           <div className="map">
             <iframe
-              src="https://www.google.com/maps/d/embed?mid=1ZLUIk5G3B5RH7OF4_bCt-hqAjPPTW4Pc&hl=en"
+              src="https://www.google.com/maps/d/embed?mid=1FyzCYsBmJ5ae1BGeofq6UAMnwJzC7uqx"
               title="google-map"
             ></iframe>
           </div>

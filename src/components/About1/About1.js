@@ -1,5 +1,6 @@
 import React from "react";
-
+import abt1 from '../assets/about1.webp'
+import abt2 from '../assets/about2.webp'
 import "./About1.css";
 
 const About1 = () => {
@@ -65,7 +66,7 @@ const About1 = () => {
         <div className="child-img">
           <img
             id="side-image1"
-            src="https://attisquare.s3.amazonaws.com/atti-final/_HVD1306_1.jpg"
+            src={abt1}
             alt=""
           />
         </div>
@@ -105,7 +106,7 @@ const About1 = () => {
         <div className="child-img">
           <img
             id="side-image2"
-            src="https://attisquare.s3.amazonaws.com/atti-final/_HVD1170+(1).jpg"
+            src={abt2}
             alt=""
           />
         </div>

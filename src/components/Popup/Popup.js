@@ -25,7 +25,7 @@ const Popup = () => {
         }}
       >
         <img
-          src="https://attisquare.s3.amazonaws.com/atti-final/popup+image+1.jpeg"
+          src={popup}
           alt="popup"
         />
         <button id="submitId" onClick={closePopup}>

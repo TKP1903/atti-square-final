@@ -63,7 +63,7 @@ header {
   align-items: center;
   margin: 0;
   z-index: 2;
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/atti-back1.png");
+  background: url("../assets/atti-back1.webp");
   background-size: contain;
 }
 
@@ -217,8 +217,7 @@ h2.heading-main {
     position: relative;
     width: 30px;
     height: 30px;
-    background: url("https://attisquare.s3.amazonaws.com/atti-final/menu.png");
-    filter: invert(1);
+    background: url("./first-sec/menu.png");
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center;
@@ -229,9 +228,8 @@ h2.heading-main {
   .toggle.active {
     position: fixed;
     right: 29px;
-    background: url("https://attisquare.s3.amazonaws.com/atti-final/close.png");
-    filter: invert(1);
-    background-size: 25px;
+    background: url("./close-removebg-preview.png") ;
+    background-size: 30px;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.3s;

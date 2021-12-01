@@ -54,7 +54,7 @@ const Navbar = (props) => {
             window.location.pathname === "/" &&
             window.innerWidth > 1014
               ? "none"
-              : `url(https://attisquare.s3.amazonaws.com/atti-final/atti-back1.png)`,
+              : `url("https://drive.google.com/uc?export=view&id=1QPWb8-gikuyL2XDwvZSphpOjQGfpIu0n")`,
         }}
       >
         <Link to="/">

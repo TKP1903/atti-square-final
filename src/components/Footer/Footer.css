@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("https://attisquare.s3.amazonaws.com/atti-final/atti-back1.png");
+  background: url("../assets/illu1.png");
   background-size: contain;
 }
 .footer-text {

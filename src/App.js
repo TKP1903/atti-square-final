@@ -11,7 +11,6 @@ import Footer from "./components/Footer/Footer";
 import About1 from "./components/About1/About1";
 import Loader from "./components/loader/load";
 import Work from "./components/Workwithus/Work";
-import Popup from "./components/Popup/Popup";
 import Scroll from "./components/Scroll/Scroll";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
@@ -32,8 +31,7 @@ function App() {
         {loading ? (
           <Loader />
         ) : (
-          <div>
-            <Popup />
+          <div>            
             <Scroll />
             <Navbar />
             <Route path="/" component={Home} exact />

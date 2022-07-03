@@ -46,6 +46,21 @@ const Contd = () => {
                   <span className="addd">George Town: </span>10,11 Broadway
                   road,Asirvada puram,George town, opp. to Muthialpet, Police
                   station, Chennai, Tamil Nadu 600108
+                  <br />
+                  <br />
+                  <span className="addd">Vyasarpadi: </span>81, Medavakkam Main
+                  No 270/208 Pudhu Nagar, MKB Nagar, Vyasarpadi, Chennai, Tamil
+                  Nadu 600039
+                  <br />
+                  <br />
+                  <span className="addd">Choolaimedu: </span>
+                  3/1 Sowrashtra nagar,First Street, Choolaimedu High Rd,
+                  Chennai, Tamil Nadu 600094
+                  <br />
+                  <br />
+                  <span className="addd">Kotturpuram: </span>
+                  19, Gandhi Mandapam Rd, Surya Nagar, Kotturpuram, Chennai,
+                  Tamil Nadu 600085
                 </p>
               </div>
             </div>

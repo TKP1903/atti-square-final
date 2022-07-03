@@ -31,7 +31,7 @@ function App() {
         {loading ? (
           <Loader />
         ) : (
-          <div>            
+          <div>
             <Scroll />
             <Navbar />
             <Route path="/" component={Home} exact />

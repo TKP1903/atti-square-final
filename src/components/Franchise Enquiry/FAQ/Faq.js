@@ -205,7 +205,7 @@ const Faq = () => {
             <div class="accordion-content">
               <p>
                 You can contact them through email – franchise@attisquare.com or
-                call them at +91-
+                call them at +91 7305473444 
               </p>
             </div>
           </div>

@@ -15,7 +15,8 @@ const Contd = () => {
 
                 <p className="contact-content">
                   <span className="addd">Corporate: </span> Old No 79 , New, no
-                  167, Eldams Rd, Teynampet, Chennai, Tamil Nadu 600018
+                  167, Eldams Rd, Teynampet, Chennai, Tamil Nadu 600018, +91
+                  7305473444
                   <br />
                   <br />
                   {/* <h2 className="h2-title">ADDRESS2</h2> */}
@@ -37,13 +38,14 @@ const Contd = () => {
                   Vijaya Nagar, Velachery, Chennai, Tamil Nadu 600042
                   <br />
                   <br />
-                  <span className="addd">Madipakkam: </span>81, Medavakkam Main Rd, opposite to Axis bank, Madipakkam, Chennai, Tamil Nadu 600091
-
+                  <span className="addd">Madipakkam: </span>81, Medavakkam Main
+                  Rd, opposite to Axis bank, Madipakkam, Chennai, Tamil Nadu
+                  600091
                   <br />
                   <br />
-                  <span className="addd">George Town: </span>10,11 Broadway road,Asirvada puram,George town, opp. to Muthialpet, Police station, Chennai, Tamil Nadu 600108
-
-
+                  <span className="addd">George Town: </span>10,11 Broadway
+                  road,Asirvada puram,George town, opp. to Muthialpet, Police
+                  station, Chennai, Tamil Nadu 600108
                 </p>
               </div>
             </div>

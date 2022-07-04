@@ -32,8 +32,8 @@ function App() {
           <Loader />
         ) : (
           <div>
-            <Scroll />
-            <Navbar />
+            {/* <Scroll />
+            <Navbar /> */}
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About1} />
             <Route path="/menu" component={MenuPage} />

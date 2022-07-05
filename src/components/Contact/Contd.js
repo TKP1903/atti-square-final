@@ -69,7 +69,9 @@ const Contd = () => {
         <Col md={6} className="col-full-width">
           <div className="map">
             <iframe
-              src="https://www.google.com/maps/d/embed?mid=1FyzCYsBmJ5ae1BGeofq6UAMnwJzC7uqx"
+              src="https://www.google.com/maps/d/embed?mid=1uDIlj9nXwgXO0pFymZZ1txtkMiW0qvU&ehbc=2E312F"
+              width="640"
+              height="480"
               title="google-map"
             ></iframe>
           </div>

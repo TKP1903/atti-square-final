@@ -1,11 +1,15 @@
 import React from "react";
 import abt1 from '../assets/about1.webp'
 import abt2 from '../assets/about2.webp'
+import Navbar from "../Navbar/Navbar";
 import "./About1.css";
 
 const About1 = () => {
   return (
     <div className="parent">
+      <div>
+        <Navbar />
+      </div>
       <div className="parent--title">
         {/* <h1 className="parent-title page-title">About Us</h1> */}
       </div>
@@ -64,11 +68,7 @@ const About1 = () => {
           </p>
         </div>
         <div className="child-img">
-          <img
-            id="side-image1"
-            src={abt1}
-            alt=""
-          />
+          <img id="side-image1" src={abt1} alt="" />
         </div>
       </div>
       <div className="parent2">
@@ -104,11 +104,7 @@ const About1 = () => {
       </div> */}
       <div className="parent3">
         <div className="child-img">
-          <img
-            id="side-image2"
-            src={abt2}
-            alt=""
-          />
+          <img id="side-image2" src={abt2} alt="" />
         </div>
         <div className="child2-content">
           <h2 className="about2-title">How We Do It</h2>

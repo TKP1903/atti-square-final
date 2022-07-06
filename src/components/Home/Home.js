@@ -6,6 +6,7 @@ import Testimonial from "./Testimonial/Testimonial";
 import Camp from "./Camp/Camp";
 import First from "./new first section/first";
 import Firstsec from "./first-sec/first-sec";
+import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
   return (

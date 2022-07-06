@@ -1,7 +1,7 @@
 import "./franenq.css";
 function Contactfra() {
   return (
-    <div id="main">
+    <div id="main" style={{ background: "red", color: "#fff" }}>
       <div className="box-o">
         <div>
           <h1 className="franchise-title">FRANCHISE</h1>

@@ -1,15 +1,11 @@
 import React from "react";
 import abt1 from '../assets/about1.webp'
-import abt2 from '../assets/about2.webp'
-import Navbar from "../Navbar/Navbar";
+import abt2 from "../assets/about2.webp";
 import "./About1.css";
 
 const About1 = () => {
   return (
     <div className="parent">
-      <div>
-        <Navbar />
-      </div>
       <div className="parent--title">
         {/* <h1 className="parent-title page-title">About Us</h1> */}
       </div>

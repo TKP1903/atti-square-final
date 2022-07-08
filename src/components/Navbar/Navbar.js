@@ -14,24 +14,24 @@ const Navbar = (props) => {
   //   const location = useLocation();
   //   console.log(location.pathname);
   // };
-  // useEffect(() => {
-  //   document.addEventListener("scroll", (e) => {
-  //     let scrolled = document.scrollingElement.scrollTop;
-  //     if (scrolled >= 100) {
-  //       setPos("moved");
-  //     } else {
-  //       setPos("top");
-  //     }
-  //     if (scrolled >= 100) {
-  //       setBack("moved");
-  //     } else {
-  //       setBack("top");
-  //     }
-  //   });
-  //   $(function () {
-  //     setActive(window.location.pathname);
-  //   });
-  // }, [active]);
+  useEffect(() => {
+    document.addEventListener("scroll", (e) => {
+      let scrolled = document.scrollingElement.scrollTop;
+      if (scrolled >= 100) {
+        setPos("moved");
+      } else {
+        setPos("top");
+      }
+      if (scrolled >= 100) {
+        setBack("moved");
+      } else {
+        setBack("top");
+      }
+    });
+    $(function () {
+      setActive(window.location.pathname);
+    });
+  }, [active]);
 
   var toggleMenu = () => {
     const menuToggle = document.querySelector(".toggle");
@@ -45,21 +45,18 @@ const Navbar = (props) => {
   // -moz-box-shadow: 1px 10px 58px -13px rgba(0, 0, 0, 0.75);
 
   return (
-    <div className="nav">
-      <div id="header-top">
+    <div className="navbar" style={{ color: "#fff" }}>
+      <div>
         <header
-          style={{
-            boxShadow:
-              pos === "top"
-                ? "#fff"
-                : " 1px 10px 58px -13px rgba(0, 0, 0, 0.75)",
-            backgroundImage:
-              back === "top" &&
-              window.location.pathname === "/" &&
-              window.innerWidth > 1014
-                ? "none"
-                : `url("https://drive.google.com/uc?export=view&id=1QPWb8-gikuyL2XDwvZSphpOjQGfpIu0n")`,
-          }}
+        // style={{
+        //   boxShadow: pos === "top" ? "" : "red",
+        //   backgroundImage:
+        //     back === "top" &&
+        //     window.location.pathname === "/" &&
+        //     window.innerWidth > 1014
+        //       ? "null"
+        //       : `url("https://drive.google.com/uc?export=view&id=1QPWb8-gikuyL2XDwvZSphpOjQGfpIu0n")`,
+        // }}
         >
           <Link to="/">
             <svg
@@ -77,8 +74,8 @@ const Navbar = (props) => {
                   pos === "top" &&
                   window.location.pathname === "/" &&
                   window.innerWidth > 1014
-                    ? "#f0bc1d"
-                    : "black"
+                    ? "#fff"
+                    : "#fff"
                 }
                 stroke="none"
               >
@@ -133,8 +130,8 @@ l-22 -24 -26 24 c-39 36 -55 30 -87 -31 -16 -30 -32 -55 -37 -55 -5 0 -9 18
                   pos === "top" &&
                   window.location.pathname === "/" &&
                   window.innerWidth > 1014
-                    ? "#f0bc1d"
-                    : "black"
+                    ? "#fff"
+                    : "#fff"
                 }
                 stroke="none"
               >
@@ -214,8 +211,8 @@ l-53 0 0 183 c0 101 3 187 7 191 4 3 70 5 147 4 l141 -3 3 -181z"
                     pos === "top" &&
                     window.location.pathname === "/" &&
                     window.innerWidth > 1014
-                      ? "#f0bc1d"
-                      : "black",
+                      ? "#fff"
+                      : "#fff",
                 }}
                 to="/"
                 onClick={() => {
@@ -234,8 +231,8 @@ l-53 0 0 183 c0 101 3 187 7 191 4 3 70 5 147 4 l141 -3 3 -181z"
                     pos === "top" &&
                     window.location.pathname === "/" &&
                     window.innerWidth > 1014
-                      ? "#f0bc1d"
-                      : "black",
+                      ? "#fff"
+                      : "#fff",
                 }}
                 to="/about"
                 onClick={() => {
@@ -256,8 +253,8 @@ l-53 0 0 183 c0 101 3 187 7 191 4 3 70 5 147 4 l141 -3 3 -181z"
                     pos === "top" &&
                     window.location.pathname === "/" &&
                     window.innerWidth > 1014
-                      ? "#f0bc1d"
-                      : "black",
+                      ? "#fff"
+                      : "#fff",
                 }}
                 to="/franchise"
                 onClick={() => {
@@ -278,8 +275,8 @@ l-53 0 0 183 c0 101 3 187 7 191 4 3 70 5 147 4 l141 -3 3 -181z"
                     pos === "top" &&
                     window.location.pathname === "/" &&
                     window.innerWidth > 1014
-                      ? "#f0bc1d"
-                      : "black",
+                      ? "#fff"
+                      : "#fff",
                 }}
                 to="/franchise-enquiry"
                 onClick={() => {
@@ -300,8 +297,8 @@ l-53 0 0 183 c0 101 3 187 7 191 4 3 70 5 147 4 l141 -3 3 -181z"
                     pos === "top" &&
                     window.location.pathname === "/" &&
                     window.innerWidth > 1014
-                      ? "#f0bc1d"
-                      : "black",
+                      ? "#fff"
+                      : "#fff",
                 }}
                 to="/gallery"
                 onClick={() => {
@@ -322,8 +319,8 @@ l-53 0 0 183 c0 101 3 187 7 191 4 3 70 5 147 4 l141 -3 3 -181z"
                     pos === "top" &&
                     window.location.pathname === "/" &&
                     window.innerWidth > 1014
-                      ? "#f0bc1d"
-                      : "black",
+                      ? "#fff"
+                      : "#fff",
                 }}
                 to="/workwithus"
                 onClick={() => {
@@ -344,8 +341,8 @@ l-53 0 0 183 c0 101 3 187 7 191 4 3 70 5 147 4 l141 -3 3 -181z"
                     pos === "top" &&
                     window.location.pathname === "/" &&
                     window.innerWidth > 1014
-                      ? "#f0bc1d"
-                      : "black",
+                      ? "#fff"
+                      : "#fff",
                 }}
                 to="/contact"
                 onClick={() => {
